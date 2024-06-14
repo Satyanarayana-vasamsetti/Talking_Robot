@@ -7,7 +7,7 @@ import speech_recognition as sr
 engine = pyttsx3.init()
 
 # Configure Google Generative AI
-genai.configure(api_key="AIzaSyCWxcdc2g1sKTpW3_OTQcQvU8zFeuucuCQ")
+genai.configure(api_key="your_api_key")
 
 generation_config = {
     "temperature": 1,
